@@ -5,22 +5,34 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Welcome to CERN Open Days</h3>
-
+<ion-content >
 
   <ion-slides pager="true">
-  <ion-slide>
-    <h1>Slide 1</h1>
+  <ion-slide style=" width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;background-image: url(https://c1.staticflickr.com/5/4103/35505398911_2a06f95b65_h.jpg)">
+
+<h1>What is the universe made of?</h1>
+
   </ion-slide>
 
-  <ion-slide>
-    <h1>Slide 2</h1>
+
+  <ion-slide style=" width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;background-image: url(https://c1.staticflickr.com/9/8635/16624555939_63df18e1df_z.jpg)">
+
+    <h1 style="color:white">What are we made off?</h1>
   </ion-slide>
 
-  <ion-slide>
-    <h1>Slide 3</h1>
-    <button ion-button color="danger">End Intro</button>
+  <ion-slide style=" width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;background-image: url(https://c1.staticflickr.com/9/8342/8284906977_5223865806_n.jpg)">
+    <h1 style="color:white">Visit CERN to get those answers</h1>
+
+    <button ion-button color="danger" (click)="goAnOtherPage()">Go to Menu</button>
   </ion-slide>
 </ion-slides>
 

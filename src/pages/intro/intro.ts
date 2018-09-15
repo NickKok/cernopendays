@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { HomePage } from '../home/home';
 
 @Component({
   selector: 'page-home',
@@ -9,6 +10,13 @@ export class IntroPage {
 
   constructor(public navCtrl: NavController) {
 
+
   }
+
+  goAnOtherPage() {
+    this.navCtrl.setRoot(HomePage);
+  }
+
+
 
 }
